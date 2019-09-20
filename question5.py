@@ -2,5 +2,5 @@
 # Create the list: squad = ["One", "Two", "Three", "Four", "Five"]. Print the list in reverse without using a list method.
 
 squad = ["One", "Two", "Three", "Four", "Five"]
-for index of range(len(squad)-1, -1, -1):
-    print(squad(index))
+for index in range(len(squad)-1, -1, -1):
+    print(squad[index])  # index property was originally set in parentheses instead of brackets
